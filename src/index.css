@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+:root {
+  font-family: var(--font-sans);
+
+  --sidebar-from: theme('colors.slate.800');
+  --sidebar-to: theme('colors.slate.700');
+  --sidebar-foreground: theme('colors.slate.100');
+  --sidebar-border: theme('colors.slate.400');
+
+  --main-from: theme('colors.slate.50');
+  --main-to: theme('colors.zinc.50');
+  --main-foreground: theme('colors.slate.800');
+  --main-border: theme('colors.slate.300');
+
+  --header-name: theme('colors.slate.700');
+  --header-subname: theme('colors.slate.800');
+
+  --print-width: 816px;
+  --print-height: 1056px;
+}
+
+@theme {
+  --font-sans: 'Montserrat', sans-serif;
+  --font-title: 'Poppins', serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --color-sidebar-from: var(--sidebar-from);
+  --color-sidebar-to: var(--sidebar-to);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+
+  --color-main-from: var(--main-from);
+  --color-main-to: var(--main-to);
+  --color-main-foreground: var(--main-foreground);
+  --color-main-border: var(--main-border);
+
+  --color-header-name: var(--header-name);
+  --color-header-subname: var(--header-subname);
+
+  --print-width: 816px;
+  --print-height: 1056px;
+}
+
+@media print {
+  body {
+    visibility: hidden;
+  }
+
+  #cv-content {
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}
