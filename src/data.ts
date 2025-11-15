@@ -11,7 +11,6 @@ import {
   SiGitlab,
   SiJavascript,
   SiKubernetes,
-  SiPostgresql,
   SiPython,
   SiReact,
   SiTypescript,
@@ -29,8 +28,9 @@ import type {
 const header = {
   name: "Valentino Manzon",
   role: "Développeur Fullstack .Net & React",
+  birthDate: new Date(2002, 1, 20),
   summary:
-    "Développeur fullstack de 23 ans adepte des méthodes agiles, j'aime apprendre de nouvelles technologies et relever des défis. Passionné par les design patterns et les bonnes pratiques de développement, je crée des applications performantes et maintenables dans le temps.",
+    "Développeur full-stack de ${age} ans, j’apprécie les environnements agiles et j’aime apprendre de nouvelles technologies. Passionné par les bonnes pratiques et les design patterns, je conçois des applications performantes et faciles à maintenir.",
 };
 
 const contactInfos: contactInfoProps[] = [
@@ -106,11 +106,11 @@ const experiences: ExperienceProps[] = [
         period: "2023 - Présent",
         details: [
           "Développement d'APIs REST en .Net Core 8",
-          "Architecture React lead sur nouvelle application",
+          "Lead sur nouvelle application avec Architecture React",
           "Pipeline IA de migration d'un langage propriétaire vers code C#",
           "Évolution et maintenance d'une application .NET Framework",
           "Création d'une bibliothèque de composants avec l'équipe design",
-          "Mise en place de pipeline CI/CD Gitlab",
+          "Mise en place de différentes pipelines CI/CD",
         ],
       },
       {
@@ -134,7 +134,7 @@ const experiences: ExperienceProps[] = [
         period: "Mai - Août 2022",
         details: [
           "Migration des optimisation de scripts Bash vers Python",
-          "Deep Learning détection d'objets (plaques et visages)",
+          "Deep Learning détection d'objets (plaques de voitures et visages)",
           "Création d'un dashboard web pour suivi temps réel traitements",
         ],
       },
