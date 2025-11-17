@@ -153,7 +153,7 @@ const projects: ProjectProps[] = [
     title: "Outil poker planning",
     period: "2025 - Présent",
     description:
-      "Outil développé en React et .Net Core pour faciliter les séances de poker planning en équipe. Utilisation de WebSockets pour les mises à jour en temps réel.",
+      "Outil développé en React et Node.js pour faciliter les séances de poker planning en équipe. Utilisation de WebSockets pour les mises à jour en temps réel.",
   },
 ];
 

@@ -18,7 +18,7 @@ export const App = () => {
       <div id="cv-content" className="h-(--print-height) min-w-(--print-width) w-(--print-width) grid grid-cols-[1fr_2fr]">
         
         <div className="from-sidebar-from to-sidebar-to bg-linear-to-b p-4 text-sidebar-foreground space-y-6 overflow-hidden">
-          <Profile />
+          <Profile className="mt-2 mb-4" />
           <ContactInfos />
           <Skills />
           <Educations />
