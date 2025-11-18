@@ -13,7 +13,7 @@ const AboutMe = () => {
   return (
     <section className="mt-4">
       <MainContentTitle title="À propos de moi" />
-      <p className="mt-2 text-justify text-sm">
+      <p className="mt-2 text-sm">
         {header.summary.replace("${age}", age?.toString() ?? "")}
       </p>
     </section>

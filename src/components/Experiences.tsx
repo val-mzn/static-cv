@@ -8,7 +8,7 @@ const Experiences = () => {
       {experiences.map(({ company, logo, positions }) => (
         <div key={company} className="mt-2">
           <div className="flex items-center space-x-2 mb-2">
-            <img src={logo} alt={company} className="h-8 w-8 object-contain" />
+            <img src={logo} alt={company} className="h-7 w-7 object-contain" />
             <p className="font-semibold text-lg">{company}</p>
           </div>
           {positions.map(({ title, period, details }) => (

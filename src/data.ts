@@ -98,8 +98,8 @@ const languages: LanguageProps[] = [
 
 const experiences: ExperienceProps[] = [
   {
-    company: "Qoia",
-    logo: "/qoia-logo.png",
+    company: "Horizontal Software",
+    logo: "/hsw_crop.png",
     positions: [
       {
         title: "Développeur Fullstack .Net & React",

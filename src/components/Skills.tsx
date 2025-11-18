@@ -11,7 +11,7 @@ export const Skills = () => {
             {technologies.map(({ name, icon: Icon }) => (
               <li
                 key={name}
-                className={`flex items-center space-x-2 rounded-sm from-white/20 to-white/30 bg-linear-to-br px-2 py-1`}
+                className={`flex items-center space-x-2 rounded-sm from-slate-500 to-slate-600 bg-linear-to-br px-2 py-1`}
               >
                 {Icon && <Icon width={16} height={16} />}
                 <span className="text-sm font-semibold">{name}</span>
